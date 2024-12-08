@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id, en, arb" translate="yes">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Blog Website, Haris Naufal Website Blog">
+    <meta name="description" content="Haris Naufal Website Blog yang menerik dan menghibur">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="Icon Website Title.png" type="image/png">
+    <link rel="stylesheet" href="Kontak.css">
+    <title>Kontak | HarisNaufal</title>
+</head>
+<body>
+    
+    <div class="progress-container" style="position: relative; top: -1vh;">
+        <div class="progress-bar"></div>
+    </div>
+
+    <div style="position: relative; bottom: 0.1vh;" class="Animasi">
+        <nav class="Navbar">
+            <div class="Logo">
+                <a href="Kontak.html"><img src="Icon Without Background.png" alt="Logo" sizes="20px"></a>
+            </div>
+    
+            <ul class="Nav-link">
+                <li id="navLink1"><a href="Beranda.html">Beranda</a></li>
+                <li id="navlink2"><a href="Tentang.html">Tentang</a></li>
+            </ul>
+        </nav>
+
+
+
+    
+    <div>
+        <h3 style="position: relative; text-align: center; bottom: -90px; color: aliceblue; font-size: 35px;">Kontak aku!</h3>
+        <hr style="margin: 37px; height: 995px; background-color: rgb(94, 168, 253); border-radius: 15px; ">
+
+        <form id="formulirKontak">
+            <label style="position: relative; top: -897px; left: 57px; color: aliceblue; font-size: 23px;"><b>Nama :</b></label>
+            <input type="text" id="nama" name="Nama" placeholder="Masukan Nama Asli Anda!" required style="font-weight: bold; font-size: large; position: relative; top: -899px; left: 57px; border-radius: 5px; height: 30px; padding: 3px; border: 20px; margin: 10px; width: 340px; color: rgb(71, 160, 238);">
+
+            <label style="position: relative; bottom: 829px; left: -393px; color: aliceblue; font-size: 23px;"><b>Email :</b></label>
+            <input type="email" id="email" name="Email" placeholder="Masukan Email Anda!" required style="font-weight: bold; font-size: large; position: relative; bottom: 829px; left: -393px; border-radius: 5px; height: 30px; padding: 3px; border: 20px; margin: 10px; width: 340px; color: rgb(71, 160, 238);">
+
+            <label style="position: relative; bottom: 859px; left: -299px; color: aliceblue; font-size: 23px;"><b>Subject :</b></label>
+            <input type="text" id="subject" name="Subject" placeholder="Masukan Subject Anda!" required style="font-weight: bold; font-size: large; position: relative; bottom: 859px; left: -299px; border-radius: 5px; height: 30px; padding: 3px; border: 20px; margin: 10px; width: 340px; color: rgb(71, 160, 238);">
+
+            <textarea id="pesan" name="Pesan" placeholder="Tuliskan Pesan Anda!" required style="font-weight: bold; font-size: 22px; position: relative; top: -770px; right: -82px; height: 430px; width: 1226px; border-radius: 7px; border: 40px; color: rgb(71, 160, 238); background-color: aliceblue;"></textarea>
+        </form>
+
+        <button style="font-weight: bold; font-size: 23px; position: relative; top: -670px; right: -597px; border: 43px; border-radius: 5px; height: 40px; width: 150px; color: rgb(71, 160, 238); cursor: pointer;">Kirim!</button>
+    </div>
+</div>
+     
+            <script src="Kontak Script.js" ></script>
+            <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+            <script>
+                (function(){
+                    emailjs.init("EFje7LhzndDE0SOxX");
+                })();
+            </script>
+
+</body>
+</html>

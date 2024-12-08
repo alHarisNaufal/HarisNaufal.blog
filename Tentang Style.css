@@ -1,0 +1,93 @@
+.Halaman-tentang{
+    display: block;
+    background-color: aliceblue;
+    font-family: Arial;
+    overflow: scroll;
+}
+
+.Animasi2{
+    animation-name: gerakan-samping-kiri;
+    animation-duration: 2s;
+}
+
+@keyframes gerakan-samping-kiri{
+    0%{
+        transform: translateX(7px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.progress-container{
+    width: 100%;
+    height: 3px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    bottom: -0.1px;
+}
+
+.progress-bar{
+    width: 0;
+    height: 100%;
+    background-color: rgb(94, 168, 253);
+    border-radius: 7px;
+    position: absolute;
+    animation: loading 2s alternate;
+}
+
+@keyframes loading{
+    0%{width: 0;}
+    50%{width: 100%;}
+}
+
+
+.Heading-Paragraf2{
+    position: relative;
+    color: aliceblue;
+    top: -599px;
+    left: 57px;
+    font-size: 23px;
+}
+
+/* ===== Untuk Navbar ===== */
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(94, 168, 253);
+    padding: 10px, 20px;
+    border-radius: 10px;
+    height: 47px;
+}
+
+.Logo img{
+height: 49px;
+width: auto;
+}
+
+.Nav-link{
+    list-style: none;
+    display: flex;
+}
+
+.Nav-link li{
+    margin-left: 20px;
+}
+
+.Nav-link a{
+    text-decoration: none;
+    font-size: 19px;
+    transition: color 0.3;
+    font-family: Arial;
+    color: aliceblue;
+    position: relative;
+    margin-left: 10px;
+    left: -623px;
+}
+/* ===== Untuk Navbar ===== */
